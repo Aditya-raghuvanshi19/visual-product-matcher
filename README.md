@@ -32,6 +32,52 @@ The core of this system is a **deep learning model (MobileNet)** that converts i
 | **Data Storage**| JSON File System        | Stores product metadata and their corresponding embeddings in `db/products.json`.|
 
 ---
+##  Project Structure
+
+```
+visual-product-matcher/
+├── backend/
+│   ├── db/
+│   │   ├── products/               # Product images
+│   │   └── products.json           # Database with embeddings
+│   ├── routes/
+│   │   └── imageRoutes.js          # /api/search + /api/refresh
+│   ├── utils/
+│   │   ├── similarity.js           # MobileNet + embedding utils
+│   │   └── generateEmbeddings.js   # Auto-sync embeddings
+│   ├── server.js                   # Express app entry
+│   └── .env                        # Backend environment vars
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── AdminPanel.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   ├── ResultsGrid.jsx
+│   │   │   ├── SimilarResults.jsx
+│   │   │   └── UploadCard.jsx
+│   │   ├── utils/
+│   │   │   └── api.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+└── README.md
+
+```
+
+---
 
 ### Local Setup & Configuration
 
