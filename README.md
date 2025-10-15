@@ -1,4 +1,10 @@
-# Visual Product Matcher
+ 
+
+![Logo](./frontend/public/favicon.png) # Visual Product Matcher
+---
+### Live Deployed Link : https://visual-product-matcher-gamma.vercel.app/
+
+---
 
 <div align="center">
 
