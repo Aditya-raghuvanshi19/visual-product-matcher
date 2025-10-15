@@ -1,10 +1,15 @@
- 
+<p align="center">
+  <img src="./frontend/public/favicon.png" alt="Logo" width="100" height="100">
+</p>
 
-![Logo](./frontend/public/favicon.png) # Visual Product Matcher
+# Visual Product Matcher
 ---
-### Live Deployed Link : https://visual-product-matcher-gamma.vercel.app/
+
+### 🚀 Live Deployed Link
+[https://visual-product-matcher-gamma.vercel.app/](https://visual-product-matcher-gamma.vercel.app/)
 
 ---
+
 
 <div align="center">
 
