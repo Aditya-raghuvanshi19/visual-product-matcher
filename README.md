@@ -3,7 +3,6 @@
 </p>
 
 # Visual Product Matcher
----
 
 ### 🚀 Live Deployed Link
 [https://visual-product-matcher-gamma.vercel.app/](https://visual-product-matcher-gamma.vercel.app/)
